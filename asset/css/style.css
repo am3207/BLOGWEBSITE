@@ -1,0 +1,151 @@
+.header{
+	background-color:#009999;
+	text-align:center;
+	color:#004080;
+	margin-bottom:10px;
+}
+
+.button a:link, a:visited {
+  border-radius:12px;
+  background-color: #004080;
+  color: #f5f5f0;
+  padding: 1px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:18px;
+  margin-bottom:10px;
+}
+.button a:hover, a:active {
+  background-color:#0073e6 ;
+}
+
+.bgimg img{
+	width:940px;
+	height:50%;
+	margin-bottom:10px;
+}
+.footer{
+	text-align:center;
+	color:black;
+	
+}
+.abimg h3{
+	font-size:50px;
+	color:#009999;
+}
+.abimg img{
+	width:400px;
+	height:300px;
+	margin-bottom:10px;
+}
+.card{
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+	 background-color:#ebfafa;
+	 margin-bottom:15px;
+	 
+	
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img{
+	width:300px;
+	height:200px;
+}
+.card a{
+	color:blue;
+	text-decoration: none;
+	
+}
+.feed{
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+	 background-color: #ccffff;
+	 color:#004080;
+	 margin-bottom:10px;
+	
+}
+.feed:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.nest{
+	
+	color:#336699;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+	background-color: #ccf2ff;
+}
+.footer{
+	background-color:#008080;
+}
+.contactcontent1{
+	padding:30px;
+	background:white;
+	
+	
+}
+
+.contactcontent1 h2{
+	font-size:30px;
+	font-weight:500;
+	
+}
+
+.contactcontent1 .inputbox {
+	position:relative;
+	width:100%;
+	margin-top:10px;
+}
+
+.contactcontent1 .inputbox input,
+.contactcontent1 .inputbox textarea{
+	width:100%;
+	padding:5px 0;
+	font-size:16px;
+	margin:10px 0;
+	border:none;
+	border-bottom:2px solid #333;
+	outline:none;
+	resize:none;
+}
+.contactcontent1{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+	margin-bottom:15px;
+}
+
+.contactcontent1 .inputbox span
+{
+	position:absolute;
+	left:0;
+	padding:5px 0;
+	font-size:16px;
+	margin:10px 0;
+	pointer-events:none;
+	transition:0.5s;
+	color:#666;
+}
+
+.contactcontent1 .inputbox input:focus ~ span,
+.contactcontent1 .inputbox input:valid ~ span,
+.contactcontent1 .inputbox textarea:focus ~ span,
+.contactcontent1 .inputbox textarea:valid ~ span
+{
+	color:#e91e63;
+	font-size:12px;
+	transform:translateY(-20px);
+}
+
+.contactcontent1 .inputbox input[type="submit"]
+{
+	width:100px;
+	background:#00bcd4;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	font-size:18px;
+}
+
+
+	
